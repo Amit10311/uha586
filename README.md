@@ -64,3 +64,19 @@ $ cd ~/catkin_ws
 $ catkin_make
 $ source devel/setup.bash
 ```
+
+This guide can be used a basis for fixing what has been discussed in [ethz-asl/rotors_simulator#506](https://github.com/ethz-asl/rotors_simulator/pull/506).
+
+Simulation Launch
+-----------
+
+Launching the simulation is quite simple. There are two simulation files with a visual-inertial sensor and without it. The following are commands to run the simulations. 
+
+```console
+$ roslaunch rotors_gazebo mav_with_berlin_waypoint_with_vi_sensor.launch
+```
+
+```console
+$ roslaunch rotors_gazebo mav_with_berlin_waypoint_publisher.launch
+```
+
