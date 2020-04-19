@@ -21,3 +21,21 @@ $ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 $ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
  ```
+
+2. Remove Gazebo 7 and all related packages, and then install Gazebo 9:
+
+
+```console
+$ sudo apt-get remove ros-kinetic-gazebo* gazebo* libgazebo*
+$ sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+$ wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+$ sudo apt-get update
+$ sudo apt-get install gazebo9 gazebo9-* ros-kinetic-gazebo9-*
+$ sudo apt upgrade
+$ gazebo
+```
+
+
+
+
+
