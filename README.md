@@ -54,7 +54,7 @@ $ catkin_init_workspace  # initialize your catkin workspace
 $ cd ~/catkin_ws/
 $ catkin init
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/gsilano/CrazyS.git
+$ git clone https://github.com/xxxxxxx/CrazyS.git
 $ git clone -b crazys https://github.com/gsilano/mav_comm.git
 $ cd ~/catkin_ws/src/CrazyS
 $ git checkout dev/gazebo9
