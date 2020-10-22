@@ -1,27 +1,17 @@
-
-Simulation Launch
------------
-
-There are two simulation files with a visual-inertial sensor and without it. The following are commands to run the simulations. 
-
-```console
-$ roslaunch rotors_gazebo mav_with_berlin_waypoint_with_vi_sensor.launch
-```
 # publish_pointcloud
 this code can be used for transfom the pointcloud into octomap
-# 使用方法
-## 下载到ROS工作空间
 
-   cd catkin_ws/src
+## Download to the ROS workspace
 
-   git clone https://github.com/RuPingCen/publish_pointcloud.git
-
-   cd ..
-
+   cd cloud_pkg/src
    catkin_make
 
- 将文件夹data目录下的test.pcd文件放在catkin_ws目录下，并修改launch文件指定test.pcd存放的目录
-   
+# Dependencies
+
+https://github.com/OctoMap/octomap_mapping.git
+
+Place the test.pcd file from the folder data in the catkin_ws directory, and modify the launch file to specify the directory where test.pcd is located.
+
 ## 启动转化节点
    
     roslaunch publish_pointcloud demo.launch
