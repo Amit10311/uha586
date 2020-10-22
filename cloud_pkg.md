@@ -2,7 +2,6 @@
 this code can be used for transfom the pointcloud into octomap
 
 ## Download to the ROS workspace
-
    cd cloud_pkg/src
    catkin_make
 
