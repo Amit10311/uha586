@@ -1,10 +1,11 @@
 # publish_pointcloud
 this code can be used for transfom the pointcloud into octomap
 
-## Download to the ROS workspace
-   cd cloud_pkg/src
-   catkin_make
-roslaunch publish_pointcloud demo.launch
+## Build the ROS workspace   
+```
+cd cloud_pkg/src
+catkin_make
+``` 
 # Dependencies
 
 git clone https://github.com/OctoMap/octomap_mapping.git
