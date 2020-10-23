@@ -4,6 +4,12 @@ Simulation Launch
 # 1. Installation  
 Instruction for the installation given in Installation.md file. 
 
+# hector-moveit
+Hector Quadrotor with MoveIt! Motion Planning Framework.
+
+This project aims a generic application that can autonomously manipulate a quadcopter with the minimal human-operator intervention.
+In order to implement Motion Planning primitives, MoveIt! framework is being used. This work highly inspires from the references outlied below.
+
 
 ```Shell
 sudo apt-get install gazebo9 libgazebo9-dev ros-melodic-gazebo9*
@@ -30,11 +36,7 @@ roslaunch hector_moveit_gazebo orchyard_navigation.launch
 ```Shell
 roslaunch hector_moveit_exploration explore.launch
 ```
-# hector-moveit
-Hector Quadrotor with MoveIt! Motion Planning Framework.
 
-This project aims a generic application that can autonomously manipulate a quadcopter with the minimal human-operator intervention.
-In order to implement Motion Planning primitives, MoveIt! framework is being used. This work highly inspires from the references outlied below.
 
 ## What is New?
 The new thing is the usage of MoveIt! code API so as to implement a 3D autonomous navigation stack for a Quadcopter. Referenced projects and the several others not referenced directly but have similar context use only GUI. As known, despite being a moderately skilled one, MoveIt! GUI is there for just testing purposes. For those who seek industrial applications with a really complex architecture (e.g. several drones as swarms or teams, with image processing or machine learning modules), usage of code API is the inevitable task to consider. In that sense, this project possesses quite a big potential and aims to have a frontier role. Any who interested is greatly welcomed to contribute!
