@@ -6,7 +6,7 @@
 * [Standard Compilation](#4-Standard-Compilation)
 * [PCl links](#5-Pcl-links)
 
-## 1. Installtion 
+## 1.1 Installtion 
 
 Compiling tests passed on ubuntu **16.04, 18.04** with ros installed.
 You can just execute the following commands one by one.
@@ -22,6 +22,8 @@ The project is developed and tested in Ubuntu 16.04, ROS Kinetic. Run the follow
   source devel/setup.bash
   roslaunch ego_planner simple_run_new.launch
 ```
+
+## 1.2 Installtion 
 
 The project is developed and tested in Ubuntu 16.04, ROS Kinetic. Run the following commands to setup:
 
