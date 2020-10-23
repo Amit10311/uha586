@@ -1,5 +1,5 @@
 # 1. Aim
-Provinding the obj file to the drone having the Real world Environment.
+Provinding the .obj file to the drone having the Real world Environment.
 * Input: .gml file
 * Results: .obj file
 
