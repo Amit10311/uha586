@@ -1,12 +1,12 @@
 
 Simulation Launch
 -----------
+There are two simulation files with a visual-inertial sensor and without it. The following are commands to run the simulations. 
 
 ```console
 $ cd ~/catkin_ws
 $ catkin_make
 $ source devel/setup.bash
-There are two simulation files with a visual-inertial sensor and without it. The following are commands to run the simulations. 
 ```
 
 ```console
