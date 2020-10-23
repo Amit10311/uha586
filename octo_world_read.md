@@ -11,8 +11,37 @@ Results: Give the octomap
 
 # 3. Run the Simulation 
 
-```console 1
-$ cd ~/crazy_uav/src
+```console 1   Build the package 
+$ cd ~/octo_world
 $ catkin_make
 $ source devel/setup.bash
+$ roslaunch load_octomap load_octomap.launch 
+
 ```
+
+```console 2  Build the package 
+$ rosrun rviz rviz 
+```
+
+Input files of simulation  
+
+Octomap=> 3880_5818.bt
+```console 3
+$ cd ~/octo_world/src/larics_gazebo_worlds/models/berlin/
+$ cat 3880_5818.bt
+```
+
+
+Launch file to provide inputs
+```
+$ cd ~/octo_world/src
+$ cd load_octomap/launch/
+$ cat load_octomap.launch
+```
+Source Code to publish octomap to moveit 
+```
+$ cd ~/octo_world/src/
+cat octoload.py
+```
+
+
