@@ -44,12 +44,12 @@ Materilas > Select > Image
 
 * Step7: Export 3D Model to obj
 ```
-File > Export > 3D Model >  Input_file_gmlfiles/38**_58**/38**_58**.obj
+File > Export > 3D Model > Maps/Output_files/38**/38**_58***/50_**.obj
 ```
 
 ``` Output files 
-/38**_58**/38**_58**.obj
-/38**_58**/38**_58**..mtl
+Output_files/38**/38**_581*/50_1*.obj
+Output_files/38**/38**_581*/50_1*.mtl
 ```
 
 ## 2. Meshlab
