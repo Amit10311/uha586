@@ -17,6 +17,7 @@ $ git clone https://github.com/HKUST-Aerial-Robotics/mockamap.git
 * post2d map
 
 
+/mockamap/build$ source devel/setup.bash 
 
 
 Reading about pacakge: https://arxiv.org/pdf/1906.09785.pdf
