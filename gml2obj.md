@@ -14,7 +14,7 @@ The urban planning -Meters
 
 * Step3: Import gml file 
 ```
-File > Import > Input_file_gmlfiles/38**_581*/38*0_581*.gml
+File > Import > Maps/Input_file_gmlfiles/38**_581*/38*0_581*.gml
 ```
 12 Input files  with .gml extension 
 ```
