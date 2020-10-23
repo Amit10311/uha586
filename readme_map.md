@@ -3,7 +3,7 @@
 * The Geography Markup Language (GML) is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. 
 * OBJ (or .OBJ) is a geometry definition file format first developed by Wavefront Technologies for its Advanced Visualizer animation package. (3D graphic figures)
 
-A. Iuilding nstallation
+A. Installation
 ===============
 
 * Installation Instructions - Platform Windows
