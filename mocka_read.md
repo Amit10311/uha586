@@ -40,3 +40,8 @@ Changes can be made as  required in post2d.launch
 ```
 
 Reading about pacakge: https://arxiv.org/pdf/1906.09785.pdf
+
+# 4 Dependencies of Packages 
+1. Point_cloud
+2. PointCloud2
+3. pcl_conversions
