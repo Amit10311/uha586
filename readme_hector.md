@@ -4,8 +4,12 @@ Simulation Launch
 # 1. Installation  
 Instruction for the installation given in Installation.md file. 
 
-# Aim of  hector-moveit
+# Aim of  hector-moveit 
 Hector Quadrotor with MoveIt! Motion Planning Framework.
+1. Explore planning in static environment 
+
+2. Explore planning in dynamic environment 
+
 
 This project aims a generic application that can autonomously manipulate a quadcopter.
 
@@ -24,12 +28,19 @@ Shell 2
 roslaunch hector_moveit_exploration explore.launch
 ```
 
+
+Motion_Environment
+
 Shell 1
-```Shell 3 
-roslaunch hector_moveit_gazebo world_test.launch
+```Shell 1 
+roslaunch hector_moveit_gazebo Motion_Environment.launch
 ```
 
 
+Shell 1
+```Shell 2
+roslaunch hector_moveit_exploration explore.launch
+```
 
 
 
@@ -40,4 +51,3 @@ roslaunch hector_moveit_gazebo world_test.launch
 
 <a href="https://github.com/RiccardoGrin/darknet">Darknet Retraining with Custom Dataset by Riccardo Grin</a>
 
-_**Note**: If you know other similar projects that have the same context with the proposed ability, please inform me so that I can list them as a reference._
