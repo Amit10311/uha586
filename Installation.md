@@ -51,7 +51,7 @@ $ cd ~/catkin_ws/
 $ catkin init
 $ cd ~/catkin_ws/src
 ```
-5. Copy packages from crazy_uav folder 
+5. Copy packages from **crazy_uav** folder 
 ```
 cp -R ~/crazy_uav/src/load_octomap/ ~/catkin_ws/src
 cp -R ~/crazy_uav/src/CrazyS/ ~/catkin_ws/src
