@@ -63,8 +63,6 @@ Consequently, a new RViz panel for Exploration stack is developed in which the g
 
 In order to welcome newcomers, status quo of simulation is the best advertisement. For further detail, go to Development log.
 
-### Object Detection v1
-It has officially started! I will try to implement a ROS node that detects and collects valuable information (centers in 3D WCS, their dimensions) of trees and fruits. Current candidate is YOLO. I aim to produce a custom dataset consisting of snapshots from simulation view.
 
 ## References
 <a href="https://github.com/wilselby/ROS_quadrotor_simulator">ROS Quadrotor Simulator by Wil Selby</a>
