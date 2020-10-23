@@ -11,10 +11,9 @@ This project aims a generic application that can autonomously manipulate a quadc
 
 In order to implement Motion Planning primitives, MoveIt! framework is being used in dynamic obstacles environment .
 
+* The package `hector_gazebo_termal_camera` should be deleted after above command is executed.
 
-Since, Github does not support partial submoduling yet, the package `hector_gazebo_termal_camera` should be deleted after above command is executed.
-
-In order to build the project execute `catkin build`. Since there are roughly 30 packages, build time may be around 5 minutes.  
+ Since there are roughly 30 packages, build time may be around 5 minutes.  
 To run the project, launch consecutively: 
 ```Shell
 roslaunch hector_moveit_gazebo orchyard_navigation.launch
