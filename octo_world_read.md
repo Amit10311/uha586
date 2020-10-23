@@ -46,7 +46,7 @@ $ cat octoload.py
 ```
 
 
-# 3.2 Run the Simulation 1
+# 3.2 Run the Simulation 2
 ```console 1   Build the package 
 $ cd ~/octo_world
 $ source devel/setup.bash
@@ -56,4 +56,12 @@ Output
 
 ```console 2 Output  
 $ rosrun rviz rviz 
+```
+
+Input files of simulation  
+
+Octomap=> 3860_5817.bt
+```console 3
+$ cd ~/octo_world/src/larics_gazebo_worlds/models/berlin_60_17"/>
+$ cat 3860_5817.bt
 ```
