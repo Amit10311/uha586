@@ -1,6 +1,6 @@
 Simulation Launch
 -----------
-# 1. Insatllation  
+# 1. Installation  
 Instruction for the installation given in Installation.md file. 
 
 # 2. Aim
