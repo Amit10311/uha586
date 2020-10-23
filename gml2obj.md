@@ -14,21 +14,21 @@ The urban planning -Meters
 
 * Step3: Import gml file 
 ```
-File > Import > Input_file_gmlfiles/38**_58**/38**_58**.gml
+File > Import > Input_file_gmlfiles/38**_581*/38*0_581*.gml
 ```
 12 Input files  with .gml extension 
 ```
-$ cd ~/Maps/Input_file_gmlfiles/38**_58**/38**_58**.gml
+$ cd ~/Maps/Input_file_gmlfiles/38*0_581*/38**_58**.gml
 ```
 
 * Step4: Export 3D Model 
 ```
-File > Export > 3D Model >  Input_file_gmlfiles/38**_58**/38**_58**.kml
+File > Export > 3D Model >   Maps/Output_files/38**/38*0_581*/38*0_581.skp
 ```
 
 * Step5: Import  Model 
 ```
-File > Import > 3D Model >  Input_file_gmlfiles/38**_58**/38**_58**.kml
+File > Import > 3D Model >   Maps/Output_files/38**/38*0_581*/38*0_581.skp
 ```
 
 * Step 6: rendering   Model 
@@ -44,17 +44,20 @@ Materilas > Select > Image
 
 * Step7: Export 3D Model to obj
 ```
-File > Export > 3D Model > Maps/Output_files/38**/38**_58***/50_**.obj
+File > Export > 3D Model > Maps/Output_files/38**/38*0_581*/*0_1*.obj
 ```
 
 ``` Output files 
-Output_files/38**/38**_581*/50_1*.obj
-Output_files/38**/38**_581*/50_1*.mtl
+Output_files/38*0/38*0_581*/*0_1*.obj
+Output_files/38*0/38*0_581*/*0_1*.mtl
 ```
-
+``` example files 
+Output_files/3850/3850_5816/50_16.obj
+Output_files/3850/3850_5816/50_16.mtl
+```
 ## 2. Meshlab
 
 You can open the files in Meshlab and see the structure 
 ``` Output files 
-/38**_58**/38**_58**.obj
+Output_files/38*0/38*0_581*/*0_1*.obj
 ```
