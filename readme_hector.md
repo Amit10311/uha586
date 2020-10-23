@@ -15,12 +15,17 @@ In order to implement Motion Planning primitives, MoveIt! framework is being use
 
  Since there are roughly 30 packages, build time may be around 5 minutes.  
 To run the project, launch consecutively: 
+
 ```Shell
 roslaunch hector_moveit_gazebo orchyard_navigation.launch
 ```
 
 ```Shell
 roslaunch hector_moveit_exploration explore.launch
+```
+
+```Shell
+roslaunch hector_moveit_gazebo world_test.launch
 ```
 
 
