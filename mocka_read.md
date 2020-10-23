@@ -20,12 +20,23 @@ $ source devel/setup.bash$
 $ cd ..
 $ roslaunch mockamap post2d.launch 
 ```
+
+Inpput files of simulation  
+```console 2
+$ cd ~/crazy_uav/src
+$ cd /home/amit/mockamap/launch/post2d.launch 
 ```
-!-- map size unit meter-->
+
+```
+!--Change the  number of obsactles  value=" *** " ->
+ <node pkg="mockamap" type="mockamap_node" name="mockamap_node" output="screen">
+  <param name="seed" type="int" value="511"/>
+  
+  
+!--Change the  map size (unit meter)-->
   <param name="x_length" type="int" value="300"/>
   <param name="y_length" type="int" value="300"/>
   <param name="z_length" type="int" value="30"/>
-  
 ```
 
 Reading about pacakge: https://arxiv.org/pdf/1906.09785.pdf
