@@ -13,10 +13,11 @@ Results: Follow the waypoint
 There are two simulation files with a visual-inertial sensor and without it. The following are commands to run the simulations. 
 
 ```console 1
-$ cd ~/crazy_uav/src
+$ cd ~/crazy_uav/
 $ catkin_make
 $ source devel/setup.bash
 ```
+
 ## 3.1 Run the Way-point  Simulation 
 * Start waypoints: x=1 y=171 z=6
 * End waypoints: x=241 y=81 z=34
@@ -93,7 +94,7 @@ To know the structure of simulation
 $ rosrun rqt_graph rqt_graph 
 ```
 
-Inpput files of simulation  
+Input files of simulation  
 ```console 3
 $ cd ~/crazy_uav/src
 $ cd CrazyS/rotors_gazebo/resource/
