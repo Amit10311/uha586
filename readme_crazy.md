@@ -29,8 +29,26 @@ To know the structure of simulation
 ```console 2
 $ rosrun rqt_graph rqt_graph 
 ```
-Inpput files of simulation  
+
+To know the information about Nodes,  the currently running Nodes. 
 ```console 3
+$ rosnode list
+```
+```Output
+/gazebo
+/gazebo_gui
+/pelican/Goal
+/pelican/initial_marker
+/pelican/joint_state_publisher
+/pelican/lee_position_controller_node
+/pelican/pictogram_demo
+/pelican/robot_state_publisher
+/pelican/rviz
+/rosout
+```
+
+Inpput files of simulation  
+```console 4
 $ cd ~/crazy_uav/src
 $ cd CrazyS/rotors_gazebo/resource/
 $ cat berlin_path_way.txt
