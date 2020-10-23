@@ -41,7 +41,7 @@ $ cat load_octomap.launch
 Source Code to publish octomap to moveit 
 ```
 $ cd ~/octo_world/src/
-cat octoload.py
+$ cat octoload.py
 ```
 
 
