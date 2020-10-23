@@ -9,16 +9,13 @@ Results: .obj file
 
 * Step3: Click Insert  panelMap Import .
 
-
-* Step3: Click Insert tabImport, Import the gml file.
+* Step3: Click Insert File>Importgml.
 
 12 Input files  with .gml extension 
 ```
 $ cd ~/Maps/Input_file_gmlfiles/38**_58**/38**_58**.gml
 ```
-
-*  Step4: Export 3d Model, File> Export2obj> 
-
+*  Step4: Export 3d Model, File> Export2obj
 
 * Step: Insert color or image 
 
