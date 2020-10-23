@@ -25,18 +25,6 @@ roslaunch hector_moveit_exploration explore.launch
 ```
 
 
-## What is New?
- Referenced projects and the several others not referenced directly but have similar context use only GUI. As known, despite being a moderately skilled one, MoveIt! GUI is there for just testing purposes. 
-
-## Simulation View
-<img src="/images/garden4.jpg" alt="Garden View" width="435" height="435"/><img src="/images/garden5.jpg" alt="Garden View" width="435" height="435"/>
-<img src="/images/garden6.jpg" alt="Garden View" width="435" height="435"/><img src="/images/garden7.jpg" alt="Garden View" width="435" height="435"/>
-<img src="/images/garden_sky1.jpg" alt="Garden View" width="435" height="435"/><img src="/images/garden_sky2.jpg" alt="Garden View" width="435" height="435"/>
-### Exploration v1
-[![Orchard Exploration](http://img.youtube.com/vi/ZWn9N9Y_tb8/0.jpg)](https://www.youtube.com/watch?v=ZWn9N9Y_tb8 "Orchard Exploration")
-
-### Exploration v2
-Exploration version 2 is explained in further detail in the Development log. In summary, missions that were postponed into this version are implemented except one particular mission. According to the log, orientation fixation and trajectory action is succesfully implemented. Only task delayed to version 3 is the grid approach. Also, a very simple metrics is devised to quantify the success of the stack itself. Initial statistics are outlined in <a href="https://discourse.ros.org/t/precision-agriculture-simulation-with-a-quadcopter-in-gazebo/6025/5?u=tahsin_kose">this comment</a>. They are very important and will provide the basis for enhancements on version 3.
 
 
 
