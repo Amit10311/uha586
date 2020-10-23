@@ -1,6 +1,6 @@
 # mockamap
 * Aim: A simple big map generator based on ROS
-Results: Map generator
+Results: Map generator to provide map in ego_planner
 
 
 # 1 Installation 
