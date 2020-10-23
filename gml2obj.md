@@ -3,6 +3,8 @@ Provinding the obj file to the drone having the Real world Environment.
 Input: .gml file
 Results: .obj file
 
+
+## 1. Sketchup
 * Step1: Run the sketchup 
 
 * Step2: Select Template
@@ -48,5 +50,11 @@ File > Export > 3D Model >  Input_file_gmlfiles/38**_58**/38**_58**.obj
 ``` Output files 
 /38**_58**/38**_58**.obj
 /38**_58**/38**_58**..mtl
+```
 
+## 2. Meshlab
+
+You can open the files in Meshlab and see the structure 
+``` Output files 
+/38**_58**/38**_58**.obj
 ```
