@@ -32,6 +32,9 @@ roslaunch hector_moveit_gazebo berlin_navigation.launch
 ```
 Shell 2
 ```Shell
+cd ~/hector/
+catkin_make
+source devel/seteup.bash
 roslaunch hector_moveit_exploration explore.launch
 ```
 
@@ -40,16 +43,25 @@ roslaunch hector_moveit_exploration explore.launch
 
 Shell 1
 ```Shell 1 
+cd ~/hector/
+catkin_make
+source devel/seteup.bash
 roslaunch hector_moveit_gazebo world_test.launch
 ```
 
 Shell 1
 ```Shell 1 
+cd ~/hector/
+catkin_make
+source devel/seteup.bash
 roslaunch hector_moveit_gazebo Motion_Environment.launch
 ```
 
 Shell 2
 ```Shell 2
+cd ~/hector/
+catkin_make
+source devel/seteup.bash
 roslaunch hector_moveit_exploration explore.launch
 ```
 
