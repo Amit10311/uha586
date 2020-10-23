@@ -29,7 +29,7 @@ File > Export > 3D Model >  Input_file_gmlfiles/38**_58**/38**_58**.kml
 File > Import > 3D Model >  Input_file_gmlfiles/38**_58**/38**_58**.kml
 ```
 
-* Step 5: rendering   Model 
+* Step 6: rendering   Model 
 
  Insert color or image 
 
@@ -40,12 +40,13 @@ File > Import > 3D Model >  Input_file_gmlfiles/38**_58**/38**_58**.kml
 Materilas > Select > Image 
 ```
 
-* Step4: Export 3D Model 
+* Step7: Export 3D Model to obj
 ```
-File > Export > 3D Model >  Input_file_gmlfiles/38**_58**/38**_58**.kml
+File > Export > 3D Model >  Input_file_gmlfiles/38**_58**/38**_58**.obj
 ```
 
+``` Output files 
+/38**_58**/38**_58**.obj
+/38**_58**/38**_58**..mtl
 
-
-
-*  Step4: Export 3d Model, File> Export2obj
+```
