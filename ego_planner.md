@@ -29,7 +29,7 @@ The project is developed and tested in Ubuntu 16.04, ROS Kinetic. Run the follow
 
 ```
   sudo apt-get install libnlopt-dev libarmadillo-dev
-  cd ~/ego_upadte}/src
+  cd ~/ego_palnner/src
   cd ego-planner
   catkin_make
   source devel/setup.bash
