@@ -69,3 +69,10 @@ $ cd ~/catkin_ws
 $ catkin_make
 $ source devel/setup.bash
 ```
+Note In case the ERROR[rotors_gazebo_plugins] error is displayed, run the following commands
+
+```
+$ sudo apt-get install ros-kinetic-gazebo9-plugins
+$ sudo apt-get install apt ros-kinetic-gazebo9-ros
+$ sudo apt-get install apt ros-kinetic-gazebo9-dev
+```
