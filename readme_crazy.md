@@ -18,9 +18,8 @@ $ catkin_make
 $ source devel/setup.bash
 ```
 ## 3.1 Run the Way-point  Simulation 
- Start waypoints: x=1 y=171 z=6
- 
- End waypoints: x=241 y=81 z=34
+* Start waypoints: x=1 y=171 z=6
+* End waypoints: x=241 y=81 z=34
 ```console 1
 $ cd ~/crazy_uav/src
 $ source devel/setup.bash
