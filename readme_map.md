@@ -11,6 +11,24 @@ Installation
 
 * When the installation window opens, you'll have the option to change the application language and choose a different installation directory. Click Install, and the Installer will show a progress bar.
 
+
+Install package given
 ```
-cd ~/1_Maps/CITYGML_1/sketchup2018
+cd ~/1_Maps/sketchup201SketchUp.Pro.2018.v18.0.16975.x64
 ```
+# 2. Install plugins 
+
+Plugins given in folder
+```
+cd ~/1_Maps/sketchup2018/skectup_plugin/
+```
+
+Install the plugins 
+```
+CityGmlExtension.rb
+skp2osm_02.zip
+CityEditor_x64.rbz
+```
+
+
+
