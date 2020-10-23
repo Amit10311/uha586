@@ -12,7 +12,7 @@ $ cd ~/crazy_uav/src
 $ catkin_make
 $ source devel/setup.bash
 ```
-
+# 2.1 Run the Way-point  Simulation 
 ```console 1
 $ cd ~/crazy_uav/src
 $ source devel/setup.bash
@@ -23,7 +23,7 @@ To know the structure of simulation
 $ rosrun rqt_graph rqt_graph 
 ```
 
-Simulation with  vi Sensor for Mapping
+# 2.2 Simulation with  Way-point  Simulation  vi Sensor for Mapping
 
 ```console 1
 $ cd ~/crazy_uav/src
