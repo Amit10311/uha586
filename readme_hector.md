@@ -25,6 +25,9 @@ In order to implement Motion Planning primitives, MoveIt! framework is being use
 To run the project, launch consecutively: 
 Shell 1
 ```Shell
+cd ~/hector/
+catkin_make
+source devel/seteup.bash
 roslaunch hector_moveit_gazebo berlin_navigation.launch
 ```
 Shell 2
