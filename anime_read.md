@@ -1,9 +1,9 @@
-#  Aim
+# 1. Aim
 Package to add motion to dae files to hector simulation 
 
 Results: Objects in motion
 
-# 1. Setup
+# 2. Setup
 
 
 ```console 1
@@ -13,11 +13,11 @@ cd build
 cmake ../
 make
 ```
-# 2. Make sure Gazebo can load the plugins later
+# 3. Make sure Gazebo can load the plugins later
 ```console 1
 export GAZEBO_PLUGIN_PATH=`pwd`:$GAZEBO_PLUGIN_PATH
 ```
-# Simulate with gazebo
+# 4. Simulate with gazebo
 Run using gazebo itself with:
 ```console 1
 cd ~/gazebo_animatedbox_tutorial
