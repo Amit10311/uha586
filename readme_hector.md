@@ -12,20 +12,6 @@ This project aims a generic application that can autonomously manipulate a quadc
 In order to implement Motion Planning primitives, MoveIt! framework is being used in dynamic obstacles environment .
 
 
-```Shell
-sudo apt-get install gazebo9 libgazebo9-dev ros-melodic-gazebo9*
-```
-
-```Shell
-rosdep install --from-paths src --ignore-src -r -y --rosdistro melodic
-```
-
-After that, the repository should be cloned with all its submodules:
-
-```Shell
-git clone --recurse-submodules https://github.com/tahsinkose/hector-moveit.git
-```
-
 Since, Github does not support partial submoduling yet, the package `hector_gazebo_termal_camera` should be deleted after above command is executed.
 
 In order to build the project execute `catkin build`. Since there are roughly 30 packages, build time may be around 5 minutes.  
