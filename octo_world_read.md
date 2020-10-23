@@ -9,21 +9,20 @@ Provinding the Waypoint to the drone with the Real world Environment Simulation.
 * Input:  Octomap
 * Results: Provide the octomap info simulation 
 
-# 3. Run the Simulation 
+# 3.1 Run the Simulation 1
 
 ```console 1   Build the package 
 $ cd ~/octo_world
 $ catkin_make
 $ source devel/setup.bash
 $ roslaunch load_octomap load_octomap.launch 
-
 ```
-
 Output 
 
 ```console 2 Output  
 $ rosrun rviz rviz 
 ```
+
 
 Input files of simulation  
 
@@ -47,3 +46,14 @@ $ cat octoload.py
 ```
 
 
+# 3.2 Run the Simulation 1
+```console 1   Build the package 
+$ cd ~/octo_world
+$ source devel/setup.bash
+$ roslaunch load_octomap load_octomap_long.launch 
+```
+Output 
+
+```console 2 Output  
+$ rosrun rviz rviz 
+```
