@@ -39,7 +39,7 @@ roslaunch hector_moveit_exploration explore.launch
 ```
 
 
-# 3. Static Environment 
+# 3. Dynamic Environment 
 
 Shell 1
 ```Shell 1 
