@@ -54,6 +54,7 @@ $ cd ~/catkin_ws/src
 ```
 
 ```
+$ cd ~/catkin_ws/src
 $ git clone  https://github.com/OctoMap/octomap_mapping.git
 $ git clone -b crazys https://github.com/gsilano/mav_comm.git
 $ cd ~/catkin_ws/src/CrazyS
