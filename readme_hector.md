@@ -10,6 +10,8 @@ Hector Quadrotor with MoveIt! Motion Planning Framework.
 
 2. Explore planning in dynamic environment 
 
+Output : Too slow for motion planning 
+
 
 This project aims a generic application that can autonomously manipulate a quadcopter.
 
@@ -18,6 +20,8 @@ In order to implement Motion Planning primitives, MoveIt! framework is being use
 * The package `hector_gazebo_termal_camera` should be deleted after above command is executed.
 
  Since there are roughly 30 packages, build time may be around 5 minutes.  
+ 
+# 2. Static Environment 
 To run the project, launch consecutively: 
 Shell 1
 ```Shell
@@ -29,15 +33,19 @@ roslaunch hector_moveit_exploration explore.launch
 ```
 
 
-Motion_Environment
+# 3. Static Environment 
+
+Shell 1
+```Shell 1 
+roslaunch hector_moveit_gazebo world_test.launch
+```
 
 Shell 1
 ```Shell 1 
 roslaunch hector_moveit_gazebo Motion_Environment.launch
 ```
 
-
-Shell 1
+Shell 2
 ```Shell 2
 roslaunch hector_moveit_exploration explore.launch
 ```
