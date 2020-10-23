@@ -23,7 +23,7 @@ The project is developed and tested in Ubuntu 16.04, ROS Kinetic. Run the follow
   roslaunch ego_planner simple_run_new.launch
 ```
 
-## 1.2 Installtion 
+## 1.2 Installtion and launch
 
 The project is developed and tested in Ubuntu 16.04, ROS Kinetic. Run the following commands to setup:
 
