@@ -62,7 +62,7 @@ You can open the files in Meshlab and see the structure
 Output_files/38*0_city/38*0_581*/*0_1*.obj
 ```
 
-## Structure info given
+## 3. Structure info 
 ``` Info  files 
 Output_files/38*0_city/info.txt
 ```
