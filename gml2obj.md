@@ -66,3 +66,8 @@ Output_files/38*0_city/38*0_581*/*0_1*.obj
 ``` Info  files 
 Output_files/38*0_city/info.txt
 ```
+```
+3850_5817.gml
+object count 326
+width 507.73 height 1038.08
+```
