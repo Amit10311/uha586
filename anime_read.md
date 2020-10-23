@@ -17,6 +17,7 @@ make
 ```console 1
 export GAZEBO_PLUGIN_PATH=`pwd`:$GAZEBO_PLUGIN_PATH
 ```
+
 # 4. Simulate with gazebo
 Run using gazebo itself with:
 ```console 1
@@ -28,4 +29,10 @@ In another terminal, use "gz topic" user interface to view the pose:
 gz topic -v /gazebo/animated_box_world/pose/info
 ```
 
+# 5. Output 
+```console 1
+$ cd /home/amit/hector
+$ source devel/setup.bash
+$ roslaunch hector_moveit_gazebo world_test.launch 
+```
 
