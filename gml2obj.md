@@ -48,23 +48,23 @@ File > Export > 3D Model > Maps/Output_files/38**_city/38*0_581*/*0_1*.obj
 ```
 
 ``` Output files 
-Output_files/38*0_city/38*0_581*/*0_1*.obj
-Output_files/38*0_city/38*0_581*/*0_1*.mtl
+Maps/Output_files/38*0_city/38*0_581*/*0_1*.obj
+Maps/Output_files/38*0_city/38*0_581*/*0_1*.mtl
 ```
 ``` example files 
-Output_files/3850_city/3850_5816/50_16.obj
-Output_files/3850_city/3850_5816/50_16.mtl
+Maps/Output_files/3850_city/3850_5816/50_16.obj
+Maps/Output_files/3850_city/3850_5816/50_16.mtl
 ```
 ## 2. Meshlab
 
 You can open the files in Meshlab and see the structure 
 ``` Output files 
-Output_files/38*0_city/38*0_581*/*0_1*.obj
+Maps/Output_files/38*0_city/38*0_581*/*0_1*.obj
 ```
 
 ## 3. Structure info 
 ``` Info  files 
-Output_files/38*0_city/info.txt
+Maps/Output_files/38*0_city/info.txt
 ```
 ``` Example 
 3850_5817.obj
