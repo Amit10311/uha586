@@ -26,7 +26,7 @@ Inpput files of simulation
 $ cd ~/crazy_uav/src
 $ cd /home/amit/mockamap/launch/post2d.launch 
 ```
-
+Changes can be made as  required in post2d.launch 
 ```
 !--Change the  number of obsactles  value=" *** " ->
  <node pkg="mockamap" type="mockamap_node" name="mockamap_node" output="screen">
