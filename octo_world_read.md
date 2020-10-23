@@ -19,7 +19,9 @@ $ roslaunch load_octomap load_octomap.launch
 
 ```
 
-```console 2  Build the package 
+Output 
+
+```console 2 Output  
 $ rosrun rviz rviz 
 ```
 
